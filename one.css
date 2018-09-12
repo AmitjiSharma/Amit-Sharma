@@ -1,0 +1,88 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+.backgroundImage{
+	background-image: url(b.jpg);
+	background-size: 100% 100%;
+	height: 100vh;
+	width: 100%;
+}
+.Menu{
+	width: 100%;
+	height: 100px;
+	background-color: rgba(0,0,0,0.5);
+}
+.leftMenu{
+	width: 25%;
+	line-height: 100px;
+	float: left;
+	
+}
+.leftMenu h4{
+	padding-left: 40px;
+	color: white;
+	font-weight: bold;
+	font-size: 22px;
+}
+.RightMenu{
+	width: 75%;
+	line-height: 80px;
+	float: right;
+}
+.Rightmenu{
+	margin-left: 200px;
+
+}
+.RightMenu ul li{
+	display: inline-block;
+	list-style: none;
+	font-size: 15px
+	font-weight: bold;
+	color: white; 
+	line-height: 100px;
+	margin-left: 40px;
+	text-transform: uppercase;
+}
+.RightMenu ul li:hover{
+	color:orange
+}
+.text{
+	width:100%;
+	margin-top: 185px;
+	text-transform: uppercase;
+    text-align: center;
+
+}
+.text h4{
+	font-size: 14px
+}
+.text h1{
+	font-size: 62px;
+	font-weight: bold;
+	margin: 14px;
+}
+.text h3{
+	font-size: 15px;
+}
+#Buttonone{
+	color: white;
+	background-color: black;
+	font-size: 12px;
+	text-transform: uppercase;
+	line-height:40px;
+	width: 150px;
+	margin-top: 25px;
+
+}
+#Buttontwo{
+	color: white;
+	background-color: black;
+	font-size: 12px;
+	text-transform: uppercase;
+	line-height:40px;
+	width: 150px;
+	margin-top: 25px;
+
+}
